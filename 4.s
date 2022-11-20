@@ -13,3 +13,5 @@
 main:
 
 acc_exp: # $a0: input num, $a1: pointer, $a2: length
+# use the floating point operations (add.d) to add to the
+# input, then use bitmask and right shift to get the exponent 
